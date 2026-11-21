@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img" aria-label="一张关于导数的思维导图：中心是“导数是什么？”，分出定义、几何意义（y = x² 与 x = 1 处的切线）和例子三个分支，旁边贴着一张和纸胶带笔记。由 Claude 以 SVG 绘制。">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img" aria-label="一张关于导数的思维导图：中心是“导数是什么？”，分出定义、几何意义（y = x² 与 x = 1 处的切线）和例子三个分支，旁边贴着一张和纸胶带笔记。SVG 矢量绘制。">
   <defs>
     <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle cx="10" cy="10" r="1.1" fill="#E3D6BE"/>
@@ -100,5 +100,5 @@
 
   <!-- title + signature -->
   <text x="40" y="66" font-size="13" style="fill:#8F8577">新手样例 · 一问长成一张图</text>
-  <text x="600" y="606" font-size="12" text-anchor="end" style="fill:#8F8577">Claude 用 SVG 绘制 · 曲线按 y = x² 精确计算</text>
+  <text x="600" y="606" font-size="12" text-anchor="end" style="fill:#8F8577">SVG 矢量绘制 · 曲线按 y = x² 精确计算</text>
 </svg>
