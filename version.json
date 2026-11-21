@@ -1,0 +1,12 @@
+{
+  "version": "2.2.0",
+  "date": "2026-11-22",
+  "notes": [
+    "新增检查更新：启动时提醒新版本，右上角显示更新提示，可在「关于与支持」里手动检查",
+    "新增「关于与支持」：打赏作者、商业合作、API / 模型厂商合作入口",
+    "首次提问前提示内容会发送给哪个模型服务，并附隐私政策链接",
+    "检查更新和提问在代理不稳定时会自动重试"
+  ],
+  "download": "https://github.com/2061311947/MargicMind-site/releases/download/v2.2.0/MargicMind-Setup-2.2.0.exe",
+  "page": "https://2061311947.github.io/MargicMind-site/#get"
+}

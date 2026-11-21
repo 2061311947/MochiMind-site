@@ -112,6 +112,24 @@
     .get p { color: var(--ink-2); max-width: 560px; margin: 8px auto; }
     .req { margin-top: 18px; font-size: 14px; color: var(--ink-3); }
 
+    .support { display: grid; grid-template-columns: 1fr 1.25fr; gap: 22px; align-items: stretch; }
+    .tip-jar { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 26px 24px; text-align: center; box-shadow: 0 20px 40px -30px var(--shadow); }
+    .tip-jar h3, .coop-card h3 { margin: 4px 0 6px; font: 700 20px/1.4 var(--font-read); }
+    .tip-jar p, .coop-card p { margin: 0 0 14px; color: var(--ink-2); font-size: 15px; }
+    .qr-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .qr { margin: 0; width: 150px; position: relative; }
+    .qr img { display: block; width: 150px; height: 150px; object-fit: contain; border-radius: 10px; background: #fff; border: 1px solid var(--line); }
+    .qr .qr-empty { display: none; }
+    .qr.empty img { display: none; }
+    .qr.empty .qr-empty { display: grid; place-items: center; width: 150px; height: 150px; border-radius: 10px; border: 2px dashed var(--line); color: var(--ink-3); font-size: 13.5px; }
+    .qr figcaption { margin-top: 6px; font-size: 14px; color: var(--ink-2); }
+    .coop { display: grid; gap: 22px; }
+    .coop-card { position: relative; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 30px 24px 20px; box-shadow: 0 16px 30px -24px var(--shadow); }
+    .coop-card .tape { position: absolute; top: -12px; left: 22px; }
+    .mail { color: var(--accent); font-weight: 600; text-decoration: none; word-break: break-all; }
+    .mail:hover { text-decoration: underline; }
+    .btn svg { flex: none; }
+    @media (max-width: 760px) { .support { grid-template-columns: 1fr; } }
     .more { text-align: center; margin: 22px 0 0; font-size: 15px; }
     .more a { color: var(--accent); text-decoration: none; font-weight: 600; }
     .more a:hover { text-decoration: underline; }
@@ -131,17 +149,17 @@
   <nav>
     <div class="wrap">
       <a class="brand" href="#top"><img src="assets/icon.svg" alt="" /> Margic<em>Mind</em></a>
-      <div class="links"><a href="#features">功能</a><a href="#models">自带模型</a><a href="#privacy">隐私</a><a href="#get">获取</a></div>
+      <div class="links"><a href="#features">功能</a><a href="#models">自带模型</a><a href="#privacy">隐私</a><a href="#support">支持与合作</a><a href="#get">下载</a></div>
     </div>
   </nav>
 
   <header class="hero" id="top">
     <div class="wrap">
-      <span class="tape">Windows 桌面版 · v2.1</span>
+      <span class="tape">Windows 桌面版 · v2.2 · 免费</span>
       <h1>让每一次追问，<br />都长成一张<span class="hl">思维导图</span></h1>
       <p class="lead">在无限画布上和 AI 一起学数学、学物理：答案是卡片，追问是分支，公式清清楚楚。学完一个知识点，留下的是一整张可以回看的地图。</p>
       <div class="cta">
-        <a class="btn primary" href="#get">如何获取</a>
+        <a class="btn primary" href="#get">免费下载</a>
         <a class="btn ghost" href="#features">看看能做什么 →</a>
       </div>
       <div class="window">
@@ -228,13 +246,61 @@
     <div class="wrap">
       <div class="get" id="get">
         <span class="tape">获取 MargicMind</span>
-        <h2>目前以邀请方式分发</h2>
-        <p>MargicMind 现在只在朋友之间小范围试用，还没有公开下载。想试试的话，可以通过 GitHub 联系作者获取安装包。</p>
-        <div class="cta"><a class="btn primary" href="https://github.com/2061311947" rel="noopener">在 GitHub 联系作者</a></div>
-        <p class="req">系统要求：Windows 10 / 11（64 位）· 安装包约 150 MB · 首次运行若提示"已保护你的电脑"，点"更多信息 → 仍要运行"</p>
+        <h2>免费下载，装上就能问</h2>
+        <p>自带免费模型，不用申请任何密钥。软件会自动提醒新版本，覆盖安装即可升级，画板和设置都会保留。</p>
+        <div class="cta">
+          <a class="btn primary" id="dl" href="https://github.com/2061311947/MargicMind-site/releases/download/v2.2.0/MargicMind-Setup-2.2.0.exe">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+            下载 Windows 版 <span id="dl-ver">v2.2.0</span>
+          </a>
+          <a class="btn ghost" href="https://github.com/2061311947/MargicMind-site/releases" rel="noopener">更新记录与历史版本</a>
+        </div>
+        <p class="req">系统要求：Windows 10 / 11（64 位）· 安装包约 150 MB<br />安装包暂未做数字签名，首次运行若提示"Windows 已保护你的电脑"，点"更多信息 → 仍要运行"即可。</p>
       </div>
     </div>
   </section>
+
+  <section id="support">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="tape sakura">支持与合作</span>
+        <h2>喜欢的话，请作者喝杯奶茶</h2>
+        <p>MargicMind 由一个人利用课余时间开发，免费使用。你的支持会让它更新得更快。</p>
+      </div>
+      <div class="support">
+        <div class="tip-jar">
+          <h3>打赏作者</h3>
+          <p>扫码随意打赏，金额不限，心意最重要。</p>
+          <div class="qr-row">
+            <figure class="qr"><img src="assets/support/wechat.png" alt="微信收款码" loading="lazy" onerror="this.parentElement.classList.add('empty')" /><span class="qr-empty">收款码即将放上</span><figcaption>微信</figcaption></figure>
+            <figure class="qr"><img src="assets/support/alipay.png" alt="支付宝收款码" loading="lazy" onerror="this.parentElement.classList.add('empty')" /><span class="qr-empty">收款码即将放上</span><figcaption>支付宝</figcaption></figure>
+          </div>
+        </div>
+        <div class="coop">
+          <div class="coop-card">
+            <span class="tape">商业合作</span>
+            <h3>定制、机构与内容合作</h3>
+            <p>需要定制功能、教学机构批量使用，或者想做内容合作，欢迎来信。</p>
+            <a class="mail" href="mailto:lze25@mails.tsinghua.edu.cn?subject=MargicMind%20%E5%95%86%E4%B8%9A%E5%90%88%E4%BD%9C">lze25@mails.tsinghua.edu.cn</a>
+          </div>
+          <div class="coop-card">
+            <span class="tape mint">API / 模型厂商</span>
+            <h3>欢迎 API 和模型服务厂商联系</h3>
+            <p>把你的模型内置进「自带」列表、联合推广、为 MargicMind 用户提供专属优惠……这些都可以谈。</p>
+            <a class="mail" href="mailto:lze25@mails.tsinghua.edu.cn?subject=MargicMind%20API%20%E5%8E%82%E5%95%86%E5%90%88%E4%BD%9C">lze25@mails.tsinghua.edu.cn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    // The download button follows version.json, so a new release only needs that file updated.
+    fetch('version.json', { cache: 'no-store' }).then((r) => r.ok ? r.json() : null).then((v) => {
+      if (!v || !v.version || !/^https:\/\/github\.com\/2061311947\/MargicMind-site\//.test(v.download || '')) return;
+      document.getElementById('dl').href = v.download;
+      document.getElementById('dl-ver').textContent = 'v' + v.version;
+    }).catch(() => {});
+  </script>
 
   <footer>
     <p>© 2026 MargicMind · <a href="privacy.html">隐私政策</a> · 页面由 GitHub Pages 托管</p>
