@@ -117,11 +117,11 @@
     .tip-jar h3, .coop-card h3 { margin: 4px 0 6px; font: 700 20px/1.4 var(--font-read); }
     .tip-jar p, .coop-card p { margin: 0 0 14px; color: var(--ink-2); font-size: 15px; }
     .qr-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-    .qr { margin: 0; width: 150px; position: relative; }
-    .qr img { display: block; width: 150px; height: 150px; object-fit: contain; border-radius: 10px; background: #fff; border: 1px solid var(--line); }
+    .qr { margin: 0; width: 170px; position: relative; }
+    .qr img { display: block; width: 170px; height: auto; border-radius: 12px; border: 1px solid var(--line); box-shadow: 0 12px 24px -18px var(--shadow); }
     .qr .qr-empty { display: none; }
     .qr.empty img { display: none; }
-    .qr.empty .qr-empty { display: grid; place-items: center; width: 150px; height: 150px; border-radius: 10px; border: 2px dashed var(--line); color: var(--ink-3); font-size: 13.5px; }
+    .qr.empty .qr-empty { display: grid; place-items: center; width: 170px; height: 230px; border-radius: 12px; border: 2px dashed var(--line); color: var(--ink-3); font-size: 13.5px; }
     .qr figcaption { margin-top: 6px; font-size: 14px; color: var(--ink-2); }
     .coop { display: grid; gap: 22px; }
     .coop-card { position: relative; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 30px 24px 20px; box-shadow: 0 16px 30px -24px var(--shadow); }
@@ -270,10 +270,10 @@
       <div class="support">
         <div class="tip-jar">
           <h3>打赏作者</h3>
-          <p>扫码随意打赏，金额不限，心意最重要。</p>
+          <p>扫码随意打赏，金额不限，心意最重要。<br />用手机看这个页面时，可以长按图片保存，再到微信或支付宝里扫一扫识别。</p>
           <div class="qr-row">
             <figure class="qr"><img src="assets/support/wechat.png" alt="微信收款码" loading="lazy" onerror="this.parentElement.classList.add('empty')" /><span class="qr-empty">收款码即将放上</span><figcaption>微信</figcaption></figure>
-            <figure class="qr"><img src="assets/support/alipay.png" alt="支付宝收款码" loading="lazy" onerror="this.parentElement.classList.add('empty')" /><span class="qr-empty">收款码即将放上</span><figcaption>支付宝</figcaption></figure>
+            <figure class="qr"><img src="assets/support/alipay.jpg" alt="支付宝收款码" loading="lazy" onerror="this.parentElement.classList.add('empty')" /><span class="qr-empty">收款码即将放上</span><figcaption>支付宝</figcaption></figure>
           </div>
         </div>
         <div class="coop">
