@@ -57,6 +57,7 @@
     /* hero */
     .hero { padding: 72px 0 40px; text-align: center; }
     .hero h1 { margin: 18px 0 14px; font: 700 clamp(32px, 5.6vw, 56px)/1.2 var(--font-read); letter-spacing: .02em; }
+    .showcase .hl { color: var(--ink); font-weight: 700; padding: 0 2px; background: linear-gradient(transparent 58%, color-mix(in srgb, var(--accent-2) 50%, transparent) 58%); }
     .hero h1 .hl { background: linear-gradient(transparent 62%, color-mix(in srgb, var(--accent-2) 45%, transparent) 62%); }
     .hero p.lead { margin: 0 auto; max-width: 640px; font-size: clamp(16px, 2.2vw, 19px); color: var(--ink-2); }
     .cta { margin-top: 30px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
@@ -196,7 +197,7 @@
           <span><b>图片生成</b>Kolors 可图 · CogView-3</span>
           <span><b>语音转文字</b>XingChen</span>
         </div>
-        <p style="margin-top:14px">这张图是一张 <b>SVG 矢量图</b>：不是图片模型"画"出来的，而是由对话模型直接写成 SVG 代码，抛物线和切线都按公式精确计算，放大也不会糊。自带的图片模型擅长插画和氛围图，但<b>画不准公式和函数曲线</b>；需要准确的示意图时，对对话模型说一句"用 SVG 画出来"就行。</p>
+        <p style="margin-top:14px">这张图<span class="hl">不是</span>图片模型<span class="hl">"画"</span>出来的，而是直接写成 <b>SVG 矢量图</b>，抛物线和切线都按公式精确计算，放大也不会糊。自带的图片模型擅长插画和氛围图，但<b>画不准公式和函数曲线</b>；需要准确的示意图时，对对话模型说一句"用 SVG 画出来"就行。</p>
         <p><b>有自己的 API？</b>在「手动」里填上地址和密钥即可接入（支持 Anthropic Claude 和 OpenAI 兼容接口），模型列表会自动获取；密钥只存在本机后台，界面里看不到。</p>
       </div>
     </div>
