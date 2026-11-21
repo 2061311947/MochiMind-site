@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MargicMind · 会长成思维导图的 AI 学习笔记本</title>
-  <meta name="description" content="MargicMind：在无限画布上和 AI 学数学。答案是卡片，追问是分支，公式清清楚楚。Windows 桌面应用，本地优先，自带免费模型。" />
+  <meta name="description" content="MargicMind：面向小学到大学、考研考公的学生和职场人士的 AI 学习笔记本。在无限画布上和 AI 一起学，答案是卡片，追问是分支，公式清清楚楚。Windows 桌面应用，本地优先，自带免费模型。" />
   <meta property="og:title" content="MargicMind" />
   <meta property="og:description" content="会长成思维导图的 AI 学习笔记本" />
   <meta property="og:image" content="assets/board-main.jpg" />
@@ -130,6 +130,22 @@
     .mail:hover { text-decoration: underline; }
     .btn svg { flex: none; }
     @media (max-width: 760px) { .support { grid-template-columns: 1fr; } }
+    .who { margin: 18px auto 0; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .who a, .stages b {
+      display: inline-block; padding: 3px 16px; font: 600 14px var(--font); letter-spacing: .08em; text-decoration: none; transform: rotate(-1.5deg);
+      clip-path: polygon(0 0, 100% 0, 97% 22%, 100% 44%, 96.5% 66%, 100% 100%, 0 100%, 3% 78%, 0 56%, 3.5% 34%);
+    }
+    .who a:nth-child(even) { transform: rotate(1.5deg); }
+    .who a:hover { filter: saturate(1.3); }
+    .t-honey { background: var(--tape-honey); color: #6B4F12; }
+    .t-mint { background: var(--tape-mint); color: #1F5B47; }
+    .t-sakura { background: var(--tape-sakura); color: #8A2F4A; }
+    .t-blue { background: var(--tape-blue); color: #F4F7FF; }
+    .stages { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+    .stages div { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 18px 20px 14px; box-shadow: 0 16px 30px -26px var(--shadow); }
+    .stages b { margin-bottom: 8px; }
+    .stages p { margin: 0; color: var(--ink-2); font-size: 15px; }
+    .stages .wide { grid-column: 1 / -1; }
     .more { text-align: center; margin: 22px 0 0; font-size: 15px; }
     .more a { color: var(--accent); text-decoration: none; font-weight: 600; }
     .more a:hover { text-decoration: underline; }
@@ -149,7 +165,7 @@
   <nav>
     <div class="wrap">
       <a class="brand" href="#top"><img src="assets/icon.svg" alt="" /> Margic<em>Mind</em></a>
-      <div class="links"><a href="#features">功能</a><a href="#models">自带模型</a><a href="#privacy">隐私</a><a href="#support">支持与合作</a><a href="#get">下载</a></div>
+      <div class="links"><a href="#who">适合谁</a><a href="#features">功能</a><a href="#models">自带模型</a><a href="#privacy">隐私</a><a href="#support">支持与合作</a><a href="#get">下载</a></div>
     </div>
   </nav>
 
@@ -157,7 +173,10 @@
     <div class="wrap">
       <span class="tape">Windows 桌面版 · v2.2 · 免费</span>
       <h1>让每一次追问，<br />都长成一张<span class="hl">思维导图</span></h1>
-      <p class="lead">在无限画布上和 AI 一起学数学、学物理：答案是卡片，追问是分支，公式清清楚楚。学完一个知识点，留下的是一整张可以回看的地图。</p>
+      <p class="lead">从小学到大学，从考研到考公，再到每天上班的你：在无限画布上和 AI 一起学、一起做事，答案是卡片，追问是分支，公式清清楚楚。学完一个知识点，留下的是一整张可以回看的地图。</p>
+      <div class="who" aria-label="适合的学生">
+        <a href="#who" class="t-honey">小学</a><a href="#who" class="t-mint">初中</a><a href="#who" class="t-sakura">高中</a><a href="#who" class="t-blue">大学</a><a href="#who" class="t-honey">考研</a><a href="#who" class="t-mint">考公</a><a href="#who" class="t-sakura">职场</a>
+      </div>
       <div class="cta">
         <a class="btn primary" href="#get">免费下载</a>
         <a class="btn ghost" href="#features">看看能做什么 →</a>
@@ -168,6 +187,25 @@
       </div>
     </div>
   </header>
+
+  <section id="who">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="tape blue">适合谁</span>
+        <h2>上学、备考、上班，都能用上</h2>
+        <p>不管是第一次学分数、在准备考研考公，还是每天在工作里问 AI，问过的都留在图上。</p>
+      </div>
+      <div class="stages">
+        <div><b class="t-honey">小学</b><p>不懂就问，一步步追问到明白，答案配图讲解。建议在家长陪同下使用。</p></div>
+        <div><b class="t-mint">初中</b><p>几何、方程拆成一步一步，错题沿着分支追问，哪一步卡住一目了然。</p></div>
+        <div><b class="t-sakura">高中</b><p>数理化公式清楚渲染，一道压轴题拆成主线加旁支，思路整张留下来。</p></div>
+        <div><b class="t-blue">大学</b><p>高数、线代、大学物理的推导逐行展开，课程笔记整理成一张张导图。</p></div>
+        <div><b class="t-honey">考研</b><p>知识点串成主线，真题细节放在旁支，导出 PDF 随时复习。</p></div>
+        <div><b class="t-mint">考公</b><p>行测题型、申论素材分门别类整理，拍题提问，讲解和笔记放在一起。</p></div>
+        <div class="wide"><b class="t-sakura">职场</b><p>把平时的琐事、待办和灵感随手记成笔记卡片；工作中向 AI 问过的流程（写报告、处理表格、排查问题……）按主线一步步留下来，下次照着图做，也能导出分享给同事。</p></div>
+      </div>
+    </div>
+  </section>
 
   <section id="features">
     <div class="wrap">
@@ -249,9 +287,9 @@
         <h2>免费下载，装上就能问</h2>
         <p>自带免费模型，不用申请任何密钥。软件会自动提醒新版本，覆盖安装即可升级，画板和设置都会保留。</p>
         <div class="cta">
-          <a class="btn primary" id="dl" href="https://github.com/2061311947/MargicMind-site/releases/download/v2.2.0/MargicMind-Setup-2.2.0.exe">
+          <a class="btn primary" id="dl" href="https://github.com/2061311947/MargicMind-site/releases/download/v2.2.1/MargicMind-Setup-2.2.1.exe">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-            下载 Windows 版 <span id="dl-ver">v2.2.0</span>
+            下载 Windows 版 <span id="dl-ver">v2.2.1</span>
           </a>
           <a class="btn ghost" href="https://github.com/2061311947/MargicMind-site/releases" rel="noopener">更新记录与历史版本</a>
         </div>
