@@ -1,0 +1,38 @@
+MargicMind 软件及网站许可声明
+==============================
+
+版权所有 © 2026 MargicMind 作者。保留一切权利。
+
+1. MargicMind（包括桌面软件、安装包、程序代码、界面设计、图标、文字、图片，以及本网站
+   与本仓库中的全部内容，下称"本软件"）的著作权归作者所有，受《中华人民共和国著作权法》
+   及相关法律保护。
+
+2. 作者免费授予你下载、安装和使用本软件的权利，可用于个人学习和日常工作。
+
+3. 未经作者书面许可，任何人不得：
+   (1) 复制、修改、翻译本软件或本网站，或基于它们制作衍生作品；
+   (2) 对本软件进行反向工程、反编译、反汇编，或提取其中的程序代码、资源、服务地址与密钥
+       （法律明确允许的情形除外）；
+   (3) 出租、出售、再分发本软件或其任何部分，或把本软件作为商品或服务的一部分提供给他人；
+   (4) 删除或修改本软件中的版权声明与标识。
+
+4. 你使用本软件创建的画板、笔记等内容，其权利归你本人所有。
+
+5. 本软件包含的第三方开源组件（例如 Electron、React、KaTeX 等）遵循其各自的开源许可证，
+   本声明不改变这些组件的授权条款。
+
+6. 本软件按"现状"提供，作者不对因使用本软件造成的任何直接或间接损失承担责任。AI 生成的
+   内容可能存在错误，请自行核实。
+
+7. 商业授权与合作：lze25@mails.tsinghua.edu.cn
+
+
+----------------------------------------------------------------------
+MargicMind — Copyright (c) 2026 the MargicMind author. All rights reserved.
+
+You may download, install and use MargicMind free of charge for personal study and
+everyday work. Without the author's prior written permission you may not copy,
+modify, translate, reverse engineer, decompile, redistribute, sell, rent or create
+derivative works of the software, this website or any part of them. Third-party
+open-source components keep their own licenses. Provided "as is", without warranty.
+Licensing and business enquiries: lze25@mails.tsinghua.edu.cn
