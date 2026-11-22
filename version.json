@@ -1,11 +1,10 @@
 {
-  "version": "2.3.0",
+  "version": "2.3.1",
   "date": "2026-11-22",
   "notes": [
-    "新增拍照提问：提问框里点「拍照」，用摄像头拍下题目，可重拍、旋转；文字模型看不懂图时一键换成看图模型",
-    "新增番茄钟：左下角可拖动，支持番茄钟、倒计时、正计时，时间到轻声提醒",
-    "修复窗口较窄时右上角按钮被挤出屏幕（2.2.2 起）"
+    "番茄钟改版：变成一张小便签，进度圆环 + 时间，点圆环开始或暂停，尺寸缩小到原来的三分之一",
+    "新增拍照提问（2.3.0 起）：提问框里点「拍照」，拍下题目直接问"
   ],
-  "download": "https://github.com/2061311947/MargicMind-site/releases/download/v2.3.0/MargicMind-Setup-2.3.0.exe",
+  "download": "https://github.com/2061311947/MargicMind-site/releases/download/v2.3.1/MargicMind-Setup-2.3.1.exe",
   "page": "https://2061311947.github.io/MargicMind-site/#get"
 }
