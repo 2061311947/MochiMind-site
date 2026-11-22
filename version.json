@@ -1,11 +1,11 @@
 {
-  "version": "2.2.2",
+  "version": "2.3.0",
   "date": "2026-11-22",
   "notes": [
-    "修复：窗口不够宽时，右上角的设置、快捷键、关于按钮被挤出屏幕；工具栏会按宽度自动收起文字",
-    "「关于与支持」加入版权声明与许可声明链接",
-    "检查更新同时向官网和 CDN 查询，网络不稳定时也能收到提醒"
+    "新增拍照提问：提问框里点「拍照」，用摄像头拍下题目，可重拍、旋转；文字模型看不懂图时一键换成看图模型",
+    "新增番茄钟：左下角可拖动，支持番茄钟、倒计时、正计时，时间到轻声提醒",
+    "修复窗口较窄时右上角按钮被挤出屏幕（2.2.2 起）"
   ],
-  "download": "https://github.com/2061311947/MargicMind-site/releases/download/v2.2.2/MargicMind-Setup-2.2.2.exe",
+  "download": "https://github.com/2061311947/MargicMind-site/releases/download/v2.3.0/MargicMind-Setup-2.3.0.exe",
   "page": "https://2061311947.github.io/MargicMind-site/#get"
 }
