@@ -1,10 +1,11 @@
 {
-  "version": "2.3.2",
+  "version": "3.0.0",
   "date": "2026-11-22",
   "notes": [
-    "番茄钟固定在右上角：小胶囊就在工具栏下方，点开后面板从同一个角往下展开，不会再找不到",
-    "番茄钟改版为小便签（2.3.1 起）；拍照提问（2.3.0 起）"
+    "MargicMind 正式更名为 MochiMind（麻糬脑图），新图标保持不变",
+    "覆盖安装即可，画板和设置会自动搬到新文件夹，不会丢失",
+    "旧的 .margicmind 画板文件照样可以导入"
   ],
-  "download": "https://github.com/2061311947/MargicMind-site/releases/download/v2.3.2/MargicMind-Setup-2.3.2.exe",
-  "page": "https://2061311947.github.io/MargicMind-site/#get"
+  "download": "https://github.com/2061311947/MochiMind-site/releases/download/v3.0.0/MochiMind-Setup-3.0.0.exe",
+  "page": "https://2061311947.github.io/MochiMind-site/#get"
 }

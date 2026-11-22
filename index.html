@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MargicMind · 会长成思维导图的 AI 学习笔记本</title>
-  <meta name="description" content="MargicMind：面向小学到大学、考研考公的学生和职场人士的 AI 学习笔记本。在无限画布上和 AI 一起学，答案是卡片，追问是分支，公式清清楚楚。Windows 桌面应用，本地优先，自带免费模型。" />
-  <meta property="og:title" content="MargicMind" />
+  <title>MochiMind · 会长成思维导图的 AI 学习笔记本</title>
+  <meta name="description" content="MochiMind：面向小学到大学、考研考公的学生和职场人士的 AI 学习笔记本。在无限画布上和 AI 一起学，答案是卡片，追问是分支，公式清清楚楚。Windows 桌面应用，本地优先，自带免费模型。" />
+  <meta property="og:title" content="MochiMind" />
   <meta property="og:description" content="会长成思维导图的 AI 学习笔记本" />
   <meta property="og:image" content="assets/board-main.jpg" />
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
@@ -59,6 +59,7 @@
     .hero h1 { margin: 18px 0 14px; font: 700 clamp(32px, 5.6vw, 56px)/1.2 var(--font-read); letter-spacing: .02em; }
     .showcase .hl { color: var(--ink); font-weight: 700; padding: 0 2px; background: linear-gradient(transparent 58%, color-mix(in srgb, var(--accent-2) 50%, transparent) 58%); }
     .hero h1 .hl { background: linear-gradient(transparent 62%, color-mix(in srgb, var(--accent-2) 45%, transparent) 62%); }
+    .hero .renamed { margin: 10px 0 0; font-size: 13px; color: var(--ink-3); }
     .hero p.lead { margin: 0 auto; max-width: 640px; font-size: clamp(16px, 2.2vw, 19px); color: var(--ink-2); }
     .cta { margin-top: 30px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
     .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; border-radius: 999px; font-weight: 600; text-decoration: none; transition: transform .15s, box-shadow .2s; }
@@ -164,14 +165,15 @@
 <body>
   <nav>
     <div class="wrap">
-      <a class="brand" href="#top"><img src="assets/icon.svg" alt="" /> Margic<em>Mind</em></a>
+      <a class="brand" href="#top"><img src="assets/icon.svg" alt="" /> Mochi<em>Mind</em></a>
       <div class="links"><a href="#who">适合谁</a><a href="#features">功能</a><a href="#models">自带模型</a><a href="#privacy">隐私</a><a href="#support">支持与合作</a><a href="#get">下载</a></div>
     </div>
   </nav>
 
   <header class="hero" id="top">
     <div class="wrap">
-      <span class="tape">Windows 桌面版 · v2.3 · 免费</span>
+      <span class="tape">Windows 桌面版 · v3.0 · 免费</span>
+      <p class="renamed">原名 MargicMind，v3.0 起更名为 MochiMind</p>
       <h1>让每一次追问，<br />都长成一张<span class="hl">思维导图</span></h1>
       <p class="lead">从小学到大学，从考研到考公，再到每天上班的你：在无限画布上和 AI 一起学、一起做事，答案是卡片，追问是分支，公式清清楚楚。学完一个知识点，留下的是一整张可以回看的地图。</p>
       <div class="who" aria-label="适合的学生">
@@ -183,7 +185,7 @@
       </div>
       <div class="window">
         <div class="bar"><img src="assets/icon.svg" alt="" /> 新手样例 · v2.1<span class="dots"><i></i><i></i><i></i></span></div>
-        <img src="assets/board-main.jpg" width="1800" height="1260" alt="MargicMind 画布：主线三个问题从左到右排开，旁支在上下展开，卡片里有渲染好的数学公式、一张生成的插画和一张薄荷胶带笔记" />
+        <img src="assets/board-main.jpg" width="1800" height="1260" alt="MochiMind 画布：主线三个问题从左到右排开，旁支在上下展开，卡片里有渲染好的数学公式、一张生成的插画和一张薄荷胶带笔记" />
       </div>
     </div>
   </header>
@@ -212,7 +214,7 @@
       <div class="sec-head">
         <span class="tape mint">功能</span>
         <h2>为"刨根问底"设计的笔记本</h2>
-        <p>普通聊天越聊越长，回头找"刚才那个公式"很难。MargicMind 把每一问都放在画布上。</p>
+        <p>普通聊天越聊越长，回头找"刚才那个公式"很难。MochiMind 把每一问都放在画布上。</p>
       </div>
       <div class="grid">
         <div class="card"><span class="tape">主线 · 旁支</span>
@@ -291,15 +293,15 @@
   <section>
     <div class="wrap">
       <div class="get" id="get">
-        <span class="tape">获取 MargicMind</span>
+        <span class="tape">获取 MochiMind</span>
         <h2>免费下载，装上就能问</h2>
         <p>自带免费模型，不用申请任何密钥。软件会自动提醒新版本，覆盖安装即可升级，画板和设置都会保留。</p>
         <div class="cta">
-          <a class="btn primary" id="dl" href="https://github.com/2061311947/MargicMind-site/releases/download/v2.3.2/MargicMind-Setup-2.3.2.exe">
+          <a class="btn primary" id="dl" href="https://github.com/2061311947/MochiMind-site/releases/download/v3.0.0/MochiMind-Setup-3.0.0.exe">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-            下载 Windows 版 <span id="dl-ver">v2.3.2</span>
+            下载 Windows 版 <span id="dl-ver">v3.0.0</span>
           </a>
-          <a class="btn ghost" href="https://github.com/2061311947/MargicMind-site/releases" rel="noopener">更新记录与历史版本</a>
+          <a class="btn ghost" href="https://github.com/2061311947/MochiMind-site/releases" rel="noopener">更新记录与历史版本</a>
         </div>
         <p class="req">系统要求：Windows 10 / 11（64 位）· 安装包约 150 MB<br />安装包暂未做数字签名，首次运行若提示"Windows 已保护你的电脑"，点"更多信息 → 仍要运行"即可。</p>
       </div>
@@ -311,7 +313,7 @@
       <div class="sec-head">
         <span class="tape sakura">支持与合作</span>
         <h2>喜欢的话，请作者喝杯奶茶</h2>
-        <p>MargicMind 由一个人利用课余时间开发，免费使用。你的支持会让它更新得更快。</p>
+        <p>MochiMind 由一个人利用课余时间开发，免费使用。你的支持会让它更新得更快。</p>
       </div>
       <div class="support">
         <div class="tip-jar">
@@ -327,13 +329,13 @@
             <span class="tape">商业合作</span>
             <h3>定制、机构与内容合作</h3>
             <p>需要定制功能、教学机构批量使用，或者想做内容合作，欢迎来信。</p>
-            <a class="mail" href="mailto:lze25@mails.tsinghua.edu.cn?subject=MargicMind%20%E5%95%86%E4%B8%9A%E5%90%88%E4%BD%9C">lze25@mails.tsinghua.edu.cn</a>
+            <a class="mail" href="mailto:lze25@mails.tsinghua.edu.cn?subject=MochiMind%20%E5%95%86%E4%B8%9A%E5%90%88%E4%BD%9C">lze25@mails.tsinghua.edu.cn</a>
           </div>
           <div class="coop-card">
             <span class="tape mint">API / 模型厂商</span>
             <h3>欢迎 API 和模型服务厂商联系</h3>
-            <p>把你的模型内置进「自带」列表、联合推广、为 MargicMind 用户提供专属优惠……这些都可以谈。</p>
-            <a class="mail" href="mailto:lze25@mails.tsinghua.edu.cn?subject=MargicMind%20API%20%E5%8E%82%E5%95%86%E5%90%88%E4%BD%9C">lze25@mails.tsinghua.edu.cn</a>
+            <p>把你的模型内置进「自带」列表、联合推广、为 MochiMind 用户提供专属优惠……这些都可以谈。</p>
+            <a class="mail" href="mailto:lze25@mails.tsinghua.edu.cn?subject=MochiMind%20API%20%E5%8E%82%E5%95%86%E5%90%88%E4%BD%9C">lze25@mails.tsinghua.edu.cn</a>
           </div>
         </div>
       </div>
@@ -342,14 +344,14 @@
   <script>
     // The download button follows version.json, so a new release only needs that file updated.
     fetch('version.json', { cache: 'no-store' }).then((r) => r.ok ? r.json() : null).then((v) => {
-      if (!v || !v.version || !/^https:\/\/github\.com\/2061311947\/MargicMind-site\//.test(v.download || '')) return;
+      if (!v || !v.version || !/^https:\/\/github\.com\/2061311947\/MochiMind-site\//.test(v.download || '')) return;
       document.getElementById('dl').href = v.download;
       document.getElementById('dl-ver').textContent = 'v' + v.version;
     }).catch(() => {});
   </script>
 
   <footer>
-    <p>© 2026 MargicMind 作者 · 版权所有，保留一切权利 · <a href="license.html">许可声明</a> · <a href="privacy.html">隐私政策</a></p>
+    <p>© 2026 MochiMind 作者 · 版权所有，保留一切权利 · <a href="license.html">许可声明</a> · <a href="privacy.html">隐私政策</a></p>
   </footer>
 </body>
 </html>
