@@ -1,10 +1,10 @@
 {
-  "version": "2.3.1",
+  "version": "2.3.2",
   "date": "2026-11-22",
   "notes": [
-    "番茄钟改版：变成一张小便签，进度圆环 + 时间，点圆环开始或暂停，尺寸缩小到原来的三分之一",
-    "新增拍照提问（2.3.0 起）：提问框里点「拍照」，拍下题目直接问"
+    "番茄钟固定在右上角：小胶囊就在工具栏下方，点开后面板从同一个角往下展开，不会再找不到",
+    "番茄钟改版为小便签（2.3.1 起）；拍照提问（2.3.0 起）"
   ],
-  "download": "https://github.com/2061311947/MargicMind-site/releases/download/v2.3.1/MargicMind-Setup-2.3.1.exe",
+  "download": "https://github.com/2061311947/MargicMind-site/releases/download/v2.3.2/MargicMind-Setup-2.3.2.exe",
   "page": "https://2061311947.github.io/MargicMind-site/#get"
 }
