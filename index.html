@@ -111,6 +111,7 @@
     .get h2 { margin: 6px 0 10px; font: 700 clamp(24px, 3.6vw, 32px)/1.3 var(--font-read); }
     .get p { color: var(--ink-2); max-width: 560px; margin: 8px auto; }
     .req { margin-top: 18px; font-size: 14px; color: var(--ink-3); }
+    .req a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 
     .support { display: grid; grid-template-columns: 1fr 1.25fr; gap: 22px; align-items: stretch; }
     .tip-jar { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 26px 24px; text-align: center; box-shadow: 0 20px 40px -30px var(--shadow); }
@@ -293,15 +294,18 @@
       <div class="get" id="get">
         <span class="tape">获取 MochiMind</span>
         <h2>免费下载，装上就能问</h2>
-        <p>自带免费模型，不用申请任何密钥。软件会自动提醒新版本，覆盖安装即可升级，画板和设置都会保留。</p>
+        <p>自带免费模型，不用申请任何密钥。推荐从微软商店安装：经微软签名、没有安全提示，新版本由商店自动更新，画板和设置都会保留。</p>
         <div class="cta">
-          <a class="btn primary" id="dl" href="https://github.com/2061311947/MochiMind-site/releases/download/v3.0.0/MochiMind-Setup-3.0.0.exe">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-            下载 Windows 版 <span id="dl-ver">v3.0.0</span>
+          <a class="btn primary" href="https://apps.microsoft.com/detail/9PNQCKTC038P" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h16l-1.2 12H5.2z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+            从 Microsoft Store 获取
           </a>
-          <a class="btn ghost" href="https://github.com/2061311947/MochiMind-site/releases" rel="noopener">更新记录与历史版本</a>
+          <a class="btn ghost" id="dl" href="https://github.com/2061311947/MochiMind-site/releases/download/v3.0.0/MochiMind-Setup-3.0.0.exe">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+            直接下载安装包 <span id="dl-ver">v3.0.0</span>
+          </a>
         </div>
-        <p class="req">系统要求：Windows 10 / 11（64 位）· 安装包约 150 MB<br />安装包暂未做数字签名，首次运行若提示"Windows 已保护你的电脑"，点"更多信息 → 仍要运行"即可。</p>
+        <p class="req">系统要求：Windows 10 / 11（64 位）· 约 150 MB · <a href="https://github.com/2061311947/MochiMind-site/releases" rel="noopener">更新记录与历史版本</a><br />打不开商店时（比如公司电脑禁用了商店）再用安装包。安装包暂未做数字签名，首次运行若提示"Windows 已保护你的电脑"，点"更多信息 → 仍要运行"即可；它会在软件里提醒新版本。</p>
       </div>
     </div>
   </section>
