@@ -2,9 +2,8 @@
   "version": "3.0.0",
   "date": "2026-11-22",
   "notes": [
-    "MargicMind 正式更名为 MochiMind（麻糬脑图），新图标保持不变",
-    "覆盖安装即可，画板和设置会自动搬到新文件夹，不会丢失",
-    "旧的 .margicmind 画板文件照样可以导入"
+    "全新名字 MochiMind：界面、安装包、官网统一换新",
+    "拍照提问、番茄钟、检查更新等功能照常可用"
   ],
   "download": "https://github.com/2061311947/MochiMind-site/releases/download/v3.0.0/MochiMind-Setup-3.0.0.exe",
   "page": "https://2061311947.github.io/MochiMind-site/#get"
