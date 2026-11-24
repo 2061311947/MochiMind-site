@@ -1,10 +1,11 @@
 {
-  "version": "3.0.0",
-  "date": "2026-11-22",
+  "version": "3.0.1",
+  "date": "2026-11-24",
   "notes": [
-    "全新名字 MochiMind：界面、安装包、官网统一换新",
-    "拍照提问、番茄钟、检查更新等功能照常可用"
+    "小地图更好用：点视野框外直接跳过去，框内按住可拖，当前视野一眼可见",
+    "番茄钟默认展开",
+    "官网搬到 mochimind.cc，新增网页试用版"
   ],
-  "download": "https://github.com/2061311947/MochiMind-site/releases/download/v3.0.0/MochiMind-Setup-3.0.0.exe",
+  "download": "https://github.com/2061311947/MochiMind-site/releases/download/v3.0.1/MochiMind-Setup-3.0.1.exe",
   "page": "https://mochimind.cc/#get"
 }
