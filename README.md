@@ -1,6 +1,6 @@
 # MochiMind 官网
 
-MochiMind 的介绍页面，由 GitHub Pages 托管：https://2061311947.github.io/MochiMind-site/
+MochiMind 的介绍页面，由 GitHub Pages 托管：https://mochimind.cc （旧地址 https://2061311947.github.io/MochiMind-site/ 会自动跳转）
 
 纯静态页面（index.html + assets），没有构建步骤。
 
