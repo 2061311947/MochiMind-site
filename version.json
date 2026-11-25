@@ -6,6 +6,8 @@
     "番茄钟默认展开",
     "官网搬到 mochimind.cc，新增网页试用版"
   ],
-  "download": "https://github.com/2061311947/MochiMind-site/releases/download/v3.0.1/MochiMind-Setup-3.0.1.exe",
-  "page": "https://mochimind.cc/#get"
+  "download": "https://gh-proxy.com/https://github.com/2061311947/MochiMind-site/releases/download/v3.0.1/MochiMind-Setup-3.0.1.exe",
+  "github": "https://github.com/2061311947/MochiMind-site/releases/download/v3.0.1/MochiMind-Setup-3.0.1.exe",
+  "page": "https://mochimind.cc/#get",
+  "sha256": "554f3cbe544fbf47db4c326df01c290df38479c78b30a770e0c045bfeffd00e0"
 }
