@@ -1,13 +1,16 @@
 {
-  "version": "3.0.1",
-  "date": "2026-11-24",
+  "version": "4.0.2",
+  "date": "2026-11-26",
   "notes": [
-    "小地图更好用：点视野框外直接跳过去，框内按住可拖，当前视野一眼可见",
-    "番茄钟默认展开",
-    "官网搬到 mochimind.cc，新增网页试用版"
+    "阅读模式：左边看 PDF，划词问 AI、摘成笔记，一键问这一页",
+    "背景音乐：环境音、肖邦钢琴曲，跟着番茄钟自动播放",
+    "导出 PDF 文档：7 种排版模板，也能用自己的 Typora 主题",
+    "动态壁纸与 50 多张高清壁纸，默认飘雪",
+    "中英双语，一键切换",
+    "复制粘贴卡片、改问题后按 Enter 重新生成"
   ],
-  "download": "https://gh-proxy.com/https://github.com/2061311947/MochiMind-site/releases/download/v3.0.1/MochiMind-Setup-3.0.1.exe",
-  "github": "https://github.com/2061311947/MochiMind-site/releases/download/v3.0.1/MochiMind-Setup-3.0.1.exe",
+  "download": "https://gh-proxy.com/https://github.com/2061311947/MochiMind-site/releases/download/v4.0.2/MochiMind-Setup-4.0.2.exe",
+  "github": "https://github.com/2061311947/MochiMind-site/releases/download/v4.0.2/MochiMind-Setup-4.0.2.exe",
   "page": "https://mochimind.cc/#get",
-  "sha256": "554f3cbe544fbf47db4c326df01c290df38479c78b30a770e0c045bfeffd00e0"
+  "sha256": "5d6203fbf3e812de7dff46c5060f44d8e9d70e6071d01c0728992740f187258c"
 }
