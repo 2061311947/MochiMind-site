@@ -1,16 +1,16 @@
 {
-  "version": "4.0.2",
+  "version": "4.0.3",
   "date": "2026-11-26",
   "notes": [
+    "修复：桌面版导出 PDF 文档时图片会变空白",
     "阅读模式：左边看 PDF，划词问 AI、摘成笔记，一键问这一页",
     "背景音乐：环境音、肖邦钢琴曲，跟着番茄钟自动播放",
     "导出 PDF 文档：7 种排版模板，也能用自己的 Typora 主题",
     "动态壁纸与 50 多张高清壁纸，默认飘雪",
-    "中英双语，一键切换",
-    "复制粘贴卡片、改问题后按 Enter 重新生成"
+    "中英双语，一键切换"
   ],
-  "download": "https://gh-proxy.com/https://github.com/2061311947/MochiMind-site/releases/download/v4.0.2/MochiMind-Setup-4.0.2.exe",
-  "github": "https://github.com/2061311947/MochiMind-site/releases/download/v4.0.2/MochiMind-Setup-4.0.2.exe",
+  "download": "https://gh-proxy.com/https://github.com/2061311947/MochiMind-site/releases/download/v4.0.3/MochiMind-Setup-4.0.3.exe",
+  "github": "https://github.com/2061311947/MochiMind-site/releases/download/v4.0.3/MochiMind-Setup-4.0.3.exe",
   "page": "https://mochimind.cc/#get",
-  "sha256": "5d6203fbf3e812de7dff46c5060f44d8e9d70e6071d01c0728992740f187258c"
+  "sha256": "1c6b17a08f751150669505fef516d0d542ccc507eeba232fd2fe2e2064a846aa"
 }
