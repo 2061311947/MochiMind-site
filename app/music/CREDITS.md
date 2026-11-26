@@ -13,5 +13,12 @@
 | `prelude-raindrop.webm` | 前奏曲 Op. 28 No. 15「雨滴」 |
 | `prelude-13.webm` | 前奏曲 Op. 28 No. 13 |
 | `waltz-op69-2.webm` | 圆舞曲 Op. 69 No. 2（b 小调） |
+| `fantaisie-impromptu.webm` | 幻想即兴曲 Op. 66（升 c 小调） |
+| `impromptu-1.webm` | 即兴曲第一号 Op. 29（降 A 大调） |
+| `waltz-minute.webm` | 圆舞曲 Op. 64 No. 1「小狗」（降 D 大调） |
+| `waltz-op34-3.webm` | 圆舞曲 Op. 34 No. 3（F 大调） |
+| `waltz-op70-1.webm` | 圆舞曲 Op. 70 No. 1（降 G 大调） |
+
+「克罗地亚狂想曲」（Tonči Huljić 作曲，1999）仍受版权保护，所以**没有**放进软件，只在「音乐软件」里提供网易云 / QQ 音乐的搜索链接。
 
 环境音（雨声、溪流、篝火、海浪、风声、白噪音等）由 MochiMind 在播放时用 Web Audio 实时合成，没有使用任何录音素材。

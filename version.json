@@ -1,16 +1,16 @@
 {
-  "version": "4.0.3",
-  "date": "2026-11-26",
+  "version": "4.0.4",
+  "date": "2026-11-27",
   "notes": [
-    "修复：桌面版导出 PDF 文档时图片会变空白",
-    "阅读模式：左边看 PDF，划词问 AI、摘成笔记，一键问这一页",
-    "背景音乐：环境音、肖邦钢琴曲，跟着番茄钟自动播放",
+    "新的新手样例「天空为什么是蓝色的」，附作者的机器学习课堂样例",
+    "背景音乐新增 5 首轻快的肖邦，可一键搜索克罗地亚狂想曲",
+    "阅读模式：左边看 PDF，划词问 AI、摘成笔记",
     "导出 PDF 文档：7 种排版模板，也能用自己的 Typora 主题",
-    "动态壁纸与 50 多张高清壁纸，默认飘雪",
-    "中英双语，一键切换"
+    "动态壁纸、中英双语一键切换",
+    "修复：导出 PDF 文档时图片会变空白"
   ],
-  "download": "https://gh-proxy.com/https://github.com/2061311947/MochiMind-site/releases/download/v4.0.3/MochiMind-Setup-4.0.3.exe",
-  "github": "https://github.com/2061311947/MochiMind-site/releases/download/v4.0.3/MochiMind-Setup-4.0.3.exe",
+  "download": "https://gh-proxy.com/https://github.com/2061311947/MochiMind-site/releases/download/v4.0.4/MochiMind-Setup-4.0.4.exe",
+  "github": "https://github.com/2061311947/MochiMind-site/releases/download/v4.0.4/MochiMind-Setup-4.0.4.exe",
   "page": "https://mochimind.cc/#get",
-  "sha256": "1c6b17a08f751150669505fef516d0d542ccc507eeba232fd2fe2e2064a846aa"
+  "sha256": "3c6faa716ce1f8d07d562e4026d8e7833dcfe29964738358dd87c21c6eebc317"
 }
