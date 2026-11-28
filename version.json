@@ -1,16 +1,16 @@
 {
-  "version": "4.0.4",
-  "date": "2026-11-27",
+  "version": "4.1.0",
+  "date": "2026-11-28",
   "notes": [
-    "新的新手样例「天空为什么是蓝色的」，附作者的机器学习课堂样例",
-    "背景音乐新增 5 首轻快的肖邦，可一键搜索克罗地亚狂想曲",
-    "阅读模式：左边看 PDF，划词问 AI、摘成笔记",
-    "导出 PDF 文档：7 种排版模板，也能用自己的 Typora 主题",
-    "动态壁纸、中英双语一键切换",
-    "修复：导出 PDF 文档时图片会变空白"
+    "新增安卓版、Mac 版，iPhone 可以「添加到主屏幕」",
+    "账号（可选）：不登录也能用全部功能",
+    "关闭手动填写 API，只保留自带免费模型和本机 AI",
+    "「关于与支持」里可以一键发邮件反馈问题",
+    "新的新手样例「天空为什么是蓝色的」",
+    "背景音乐、阅读模式、PDF 文档模板、动态壁纸"
   ],
-  "download": "https://gh-proxy.com/https://github.com/2061311947/MochiMind-site/releases/download/v4.0.4/MochiMind-Setup-4.0.4.exe",
-  "github": "https://github.com/2061311947/MochiMind-site/releases/download/v4.0.4/MochiMind-Setup-4.0.4.exe",
+  "download": "https://gh-proxy.com/https://github.com/2061311947/MochiMind-site/releases/download/v4.1.0/MochiMind-Setup-4.1.0.exe",
+  "github": "https://github.com/2061311947/MochiMind-site/releases/download/v4.1.0/MochiMind-Setup-4.1.0.exe",
   "page": "https://mochimind.cc/#get",
-  "sha256": "3c6faa716ce1f8d07d562e4026d8e7833dcfe29964738358dd87c21c6eebc317"
+  "sha256": "fad0157e16a7c07ff3fb5ab590e2b59be644dfae0f970fbe40ad2aacf0b9b2df"
 }

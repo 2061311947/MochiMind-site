@@ -2,7 +2,15 @@
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 添加到主屏幕 (iPhone / Android): full screen, MochiMind's icon and paper colour -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <meta name="theme-color" content="#FBF5EA" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="MochiMind" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, interactive-widget=resizes-content" />
     <title>MochiMind</title>
     <link rel="icon" href="./icon.svg" type="image/svg+xml" />
     <script>
@@ -27,8 +35,8 @@
       @keyframes boot-breathe { 50% { transform: scale(1.04); } }
       @media (prefers-reduced-motion: reduce) { #boot * { animation: none !important; } }
     </style>
-    <script type="module" crossorigin src="./assets/index-BziE6M5l.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-C7NviGdQ.css">
+    <script type="module" crossorigin src="./assets/index-Brbz5pSt.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DIdwe14E.css">
   </head>
   <body>
     <div id="boot" aria-hidden="true"><div class="boot-in"><img src="./icon.svg" alt="" /><span>MochiMind</span></div></div>
